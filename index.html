@@ -4,14 +4,13 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Blog</h1>
+  <h1 class="page-heading">Resources</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
+      <li><a class="post-link" href="https://duckduckgo.com/?q=log4j.properties">DuckDuckGo Search</a></li>
+      <li><a class="post-link" href="https://www.google.com/search?q=log4j.properties">Google Search</a></li>
+      <li><a class="post-link" href="http://www.bing.com/search?q=log4j.properties">Bing Search</a></li>
+      <li><a class="post-link" href="https://logging.apache.org/log4j/1.2/manual.html">Official Documentation</a></li>
   </ul>
 </div>
+
